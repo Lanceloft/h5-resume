@@ -1,0 +1,47 @@
+.slide-1 {
+    background-color: #e88a63;
+
+    .avatar {
+      position: absolute;
+      top: 6rem;
+      left: 50%;
+      margin-left: -5rem;
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+    }
+
+    .item-image {
+        width: 18rem;
+        height: 18rem;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-image: url('../images/github-1.png');
+    }
+
+    .item-text {
+        width: 18rem;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .first-text {
+      top: 18rem;
+    }
+
+    .second-text {
+      top: 20rem;
+    }
+}

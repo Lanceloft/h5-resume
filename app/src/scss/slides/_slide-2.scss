@@ -1,0 +1,68 @@
+.slide-2 {
+    background-color: #5cc2f1;
+    .item-image {
+        width: 18rem;
+        height: 18rem;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-image: url('../images/github-2.png');
+    }
+
+    .item-text {
+        width: 18rem;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        position: absolute;
+        top: 24rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .skill {
+      position: relative;
+      float: left;
+      width: 10rem;
+      height: 10rem;
+      text-align: center;
+
+      .skill-circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10rem;
+        height: 10rem;
+        stroke-dasharray: 255%;
+        stroke-dashoffset: 60%;
+        stroke: #b8f1cc;
+        fill: none;
+        transform: rotate(-90deg);
+        animation: 5s move 3;
+      }
+
+      @keyframes move {
+        from {
+          stroke-dashoffset: 255%;
+        } to {
+          stroke-dashoffset: 60%;
+        }
+      }
+
+      .skill-name {
+        position: relative;
+        top: 4rem;
+        width: 10rem;
+        text-align: center;
+        font-size: 1.4rem;
+      }
+    }
+
+}
